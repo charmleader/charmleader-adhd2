@@ -3,7 +3,7 @@
 자녀의 조용한 ADHD 특성을 확인하고 전문적인 정보를 제공하는 보호자용 웹 애플리케이션입니다.
 
 ## 📱 앱 주소
-**🔗 [https://charmleader.github.io/adhd2](https://charmleader.github.io/adhd2)**
+**🔗 [https://charmleader.github.io/charmleader-adhd2](https://charmleader.github.io/charmleader-adhd2)**
 
 ## ✨ 주요 기능
 
@@ -50,8 +50,8 @@
 ### 설치 및 실행
 ```bash
 # 저장소 클론
-git clone https://github.com/charmleader/adhd2.git
-cd adhd2
+git clone https://github.com/charmleader/charmleader-adhd2.git
+cd charmleader-adhd2
 
 # 의존성 설치
 npm install

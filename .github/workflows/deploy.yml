@@ -35,7 +35,7 @@ jobs:
       run: npm run build
       env:
         CI: false
-        PUBLIC_URL: /adhd2
+        PUBLIC_URL: /charmleader-adhd2
         
     - name: Pages 설정
       uses: actions/configure-pages@v4

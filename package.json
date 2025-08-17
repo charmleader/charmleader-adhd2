@@ -2,7 +2,7 @@
   "name": "adhd-parent-guide-app",
   "version": "1.0.0",
   "description": "ADHD 보호자를 위한 자가진단 및 정보 제공 앱",
-  "homepage": "https://charmleader.github.io/adhd2",
+  "homepage": "https://charmleader.github.io/charmleader-adhd2",
   "private": false,
   "author": "참리더",
   "license": "MIT",
