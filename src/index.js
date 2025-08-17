@@ -9,3 +9,11 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+// 로딩 스피너 제거
+setTimeout(() => {
+  const spinner = document.getElementById('loading-spinner');
+  if (spinner) {
+    spinner.style.display = 'none';
+  }
+}, 100);
