@@ -30,12 +30,16 @@ jobs:
         cache: 'npm'
         
     - name: 의존성 설치
-      run: npm ci      
+      run: |
+        npm cache clean --force
+        npm install --legacy-peer-deps      
     - name: React 앱 빌드
-      run: npm run build
+      run: |
+        npm run build
       env:
         CI: false
         PUBLIC_URL: /charmleader-adhd2
+        GENERATE_SOURCEMAP: false
         
     - name: Pages 설정
       uses: actions/configure-pages@v4
